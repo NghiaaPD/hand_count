@@ -73,7 +73,7 @@ while True:
     cv2.putText(frame, f"FPS: {int(fps)}",(150,70),cv2.FONT_HERSHEY_PLAIN,3,(255,0,0),3)
 
 
-    cv2.imshow("Ga Lai LAp Trinh",frame)
+    cv2.imshow("Project_1",frame)
     if cv2.waitKey(1)== ord("q"): 
         break
 cap.release() 
